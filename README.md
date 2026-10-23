@@ -4,8 +4,8 @@ A sustainability companion app built with **Kotlin, Jetpack Compose and MVVM**. 
 
 All data is served from mock JSON in `assets/mock_data.json` behind repository interfaces, so a real backend can replace it without touching the UI or ViewModels.
 
-- **Repository:** `<ADD GITHUB LINK>`
-- **Release APK:** `<ADD LINK TO GITHUB RELEASE / DRIVE>` (also built locally at `app/build/outputs/apk/release/app-release.apk`)
+- **Repository:** `https://github.com/saurabhsingh0039/SuperHumanRaceAssignment`
+- **Release APK:** `https://github.com/saurabhsingh0039/SuperHumanRaceAssignment/releases/download/v1.0/SuperHumanRace-v1.0.apk` (also built locally at `app/build/outputs/apk/release/app-release.apk`)
 - **Demo login:** `ava@example.com` / `password123` (every mock user shares this password)
 
 ## Screens
