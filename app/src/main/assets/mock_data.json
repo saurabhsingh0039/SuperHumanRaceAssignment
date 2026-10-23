@@ -1,0 +1,532 @@
+{
+  "currentUserId": "u1",
+  "league": {
+    "name": "Determined Seed",
+    "advanceTop": 7,
+    "endsInHours": 135
+  },
+  "users": [
+    {
+      "id": "u1",
+      "name": "Ava Green",
+      "email": "ava@example.com",
+      "password": "password123",
+      "xp": 45,
+      "seeds": 13,
+      "gems": 6,
+      "streakDays": 1
+    },
+    {
+      "id": "u2",
+      "name": "Kiran Rao",
+      "email": "kiran@example.com",
+      "password": "password123",
+      "xp": 120,
+      "seeds": 40,
+      "gems": 12,
+      "streakDays": 9
+    },
+    {
+      "id": "u3",
+      "name": "Mei Tanaka",
+      "email": "mei@example.com",
+      "password": "password123",
+      "xp": 98,
+      "seeds": 31,
+      "gems": 9,
+      "streakDays": 6
+    },
+    {
+      "id": "u4",
+      "name": "Noah Fischer",
+      "email": "noah@example.com",
+      "password": "password123",
+      "xp": 76,
+      "seeds": 22,
+      "gems": 7,
+      "streakDays": 4
+    },
+    {
+      "id": "u5",
+      "name": "Zara Khan",
+      "email": "zara@example.com",
+      "password": "password123",
+      "xp": 45,
+      "seeds": 15,
+      "gems": 5,
+      "streakDays": 3
+    },
+    {
+      "id": "u6",
+      "name": "Leo Costa",
+      "email": "leo@example.com",
+      "password": "password123",
+      "xp": 20,
+      "seeds": 8,
+      "gems": 2,
+      "streakDays": 2
+    },
+    {
+      "id": "u7",
+      "name": "Priya Nair",
+      "email": "priya@example.com",
+      "password": "password123",
+      "xp": 20,
+      "seeds": 6,
+      "gems": 3,
+      "streakDays": 1
+    },
+    {
+      "id": "u8",
+      "name": "Omar Haddad",
+      "email": "omar@example.com",
+      "password": "password123",
+      "xp": 0,
+      "seeds": 0,
+      "gems": 0,
+      "streakDays": 0
+    }
+  ],
+  "posts": [
+    {
+      "id": "p1",
+      "userId": "u2",
+      "text": "Cycled to work instead of driving today.",
+      "co2SavedKg": 2.1,
+      "minutesAgo": 25,
+      "likeCount": 14,
+      "comments": [
+        {
+          "id": "c1",
+          "userId": "u3",
+          "text": "Nice one!",
+          "minutesAgo": 20
+        },
+        {
+          "id": "c2",
+          "userId": "u4",
+          "text": "Same here, great weather for it.",
+          "minutesAgo": 12
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "userId": "u3",
+      "text": "Meal-prepped a plant-based lunch for the week.",
+      "co2SavedKg": 3.4,
+      "minutesAgo": 95,
+      "likeCount": 22,
+      "likedByMe": true,
+      "comments": [
+        {
+          "id": "c3",
+          "userId": "u1",
+          "text": "Recipe please!",
+          "minutesAgo": 80
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "userId": "u4",
+      "text": "Took the bus to the market and brought my own bags.",
+      "co2SavedKg": 1.2,
+      "minutesAgo": 240,
+      "likeCount": 6,
+      "comments": []
+    },
+    {
+      "id": "p4",
+      "userId": "u5",
+      "text": "Bought a second-hand jacket instead of a new one.",
+      "co2SavedKg": 5.0,
+      "minutesAgo": 600,
+      "likeCount": 31,
+      "comments": [
+        {
+          "id": "c4",
+          "userId": "u2",
+          "text": "Great find.",
+          "minutesAgo": 560
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "userId": "u6",
+      "text": "Walked the kids to school this morning.",
+      "co2SavedKg": 0.8,
+      "minutesAgo": 1500,
+      "likeCount": 9,
+      "comments": []
+    },
+    {
+      "id": "p6",
+      "userId": "u7",
+      "text": "Switched to a train for the weekend trip.",
+      "co2SavedKg": 7.6,
+      "minutesAgo": 2900,
+      "likeCount": 18,
+      "comments": []
+    }
+  ],
+  "dailyLogs": [
+    {
+      "daysAgo": 0,
+      "mode": "CAR",
+      "km": 7.7
+    },
+    {
+      "daysAgo": 1,
+      "mode": "WALK",
+      "km": 1.8
+    },
+    {
+      "daysAgo": 2,
+      "mode": "BUS",
+      "km": 13.9
+    },
+    {
+      "daysAgo": 3,
+      "mode": "WALK",
+      "km": 1.6
+    },
+    {
+      "daysAgo": 4,
+      "mode": "CYCLE",
+      "km": 6.4
+    },
+    {
+      "daysAgo": 5,
+      "mode": "CAR",
+      "km": 4.5
+    },
+    {
+      "daysAgo": 6,
+      "mode": "BUS",
+      "km": 10.0
+    },
+    {
+      "daysAgo": 7,
+      "mode": "BUS",
+      "km": 7.8
+    },
+    {
+      "daysAgo": 8,
+      "mode": "WALK",
+      "km": 2.6
+    },
+    {
+      "daysAgo": 9,
+      "mode": "CYCLE",
+      "km": 6.3
+    },
+    {
+      "daysAgo": 10,
+      "mode": "CYCLE",
+      "km": 8.5
+    },
+    {
+      "daysAgo": 10,
+      "mode": "WALK",
+      "km": 2.0
+    },
+    {
+      "daysAgo": 11,
+      "mode": "WALK",
+      "km": 0.7
+    },
+    {
+      "daysAgo": 11,
+      "mode": "TRAIN",
+      "km": 29.1
+    },
+    {
+      "daysAgo": 12,
+      "mode": "WALK",
+      "km": 2.2
+    },
+    {
+      "daysAgo": 12,
+      "mode": "CYCLE",
+      "km": 4.5
+    },
+    {
+      "daysAgo": 13,
+      "mode": "CAR",
+      "km": 7.3
+    },
+    {
+      "daysAgo": 13,
+      "mode": "CYCLE",
+      "km": 3.4
+    },
+    {
+      "daysAgo": 14,
+      "mode": "WALK",
+      "km": 1.3
+    },
+    {
+      "daysAgo": 15,
+      "mode": "CAR",
+      "km": 11.8
+    },
+    {
+      "daysAgo": 16,
+      "mode": "BUS",
+      "km": 3.9
+    },
+    {
+      "daysAgo": 17,
+      "mode": "CYCLE",
+      "km": 8.1
+    },
+    {
+      "daysAgo": 17,
+      "mode": "WALK",
+      "km": 1.7
+    },
+    {
+      "daysAgo": 18,
+      "mode": "CAR",
+      "km": 3.9
+    },
+    {
+      "daysAgo": 19,
+      "mode": "BUS",
+      "km": 13.5
+    },
+    {
+      "daysAgo": 19,
+      "mode": "CYCLE",
+      "km": 7.6
+    },
+    {
+      "daysAgo": 20,
+      "mode": "BUS",
+      "km": 12.6
+    },
+    {
+      "daysAgo": 20,
+      "mode": "WALK",
+      "km": 0.7
+    },
+    {
+      "daysAgo": 21,
+      "mode": "BUS",
+      "km": 11.0
+    },
+    {
+      "daysAgo": 22,
+      "mode": "CAR",
+      "km": 6.7
+    },
+    {
+      "daysAgo": 23,
+      "mode": "CAR",
+      "km": 12.9
+    },
+    {
+      "daysAgo": 23,
+      "mode": "CYCLE",
+      "km": 5.1
+    },
+    {
+      "daysAgo": 24,
+      "mode": "CYCLE",
+      "km": 9.5
+    },
+    {
+      "daysAgo": 24,
+      "mode": "CYCLE",
+      "km": 6.9
+    },
+    {
+      "daysAgo": 25,
+      "mode": "WALK",
+      "km": 2.4
+    },
+    {
+      "daysAgo": 26,
+      "mode": "CAR",
+      "km": 7.8
+    },
+    {
+      "daysAgo": 27,
+      "mode": "WALK",
+      "km": 1.6
+    },
+    {
+      "daysAgo": 28,
+      "mode": "CYCLE",
+      "km": 3.1
+    },
+    {
+      "daysAgo": 28,
+      "mode": "BUS",
+      "km": 9.6
+    },
+    {
+      "daysAgo": 29,
+      "mode": "CYCLE",
+      "km": 4.9
+    },
+    {
+      "daysAgo": 29,
+      "mode": "CAR",
+      "km": 14.5
+    }
+  ],
+  "friends": [
+    {
+      "userId": "u2",
+      "dLat": 0.004,
+      "dLng": 0.006,
+      "active": true
+    },
+    {
+      "userId": "u3",
+      "dLat": -0.007,
+      "dLng": 0.003,
+      "active": true
+    },
+    {
+      "userId": "u4",
+      "dLat": 0.01,
+      "dLng": -0.008,
+      "active": false
+    },
+    {
+      "userId": "u5",
+      "dLat": -0.003,
+      "dLng": -0.011,
+      "active": true
+    },
+    {
+      "userId": "u6",
+      "dLat": 0.013,
+      "dLng": 0.009,
+      "active": true
+    },
+    {
+      "userId": "u7",
+      "dLat": -0.012,
+      "dLng": 0.012,
+      "active": false
+    }
+  ],
+  "chat": {
+    "greeting": "Hi, I'm Ora. Ask me about CO2e, transport, food or shopping.",
+    "fallback": "I don't have an answer for that yet. Try asking about CO2e, transport, food or shopping.",
+    "rules": [
+      {
+        "keywords": [
+          "co2",
+          "co2e",
+          "carbon",
+          "footprint",
+          "emissions"
+        ],
+        "reply": "Your CO2e savings come from the choices you log: walking or cycling instead of driving saves the most. Open Profile and check the Impact tab for your weekly and monthly totals."
+      },
+      {
+        "keywords": [
+          "transport",
+          "travel",
+          "bike",
+          "cycle",
+          "bus",
+          "train",
+          "car",
+          "walk",
+          "commute"
+        ],
+        "reply": "Walking and cycling produce no direct emissions. Trains and buses are next best, and a car emits the most per passenger-km. Try swapping one short car trip this week."
+      },
+      {
+        "keywords": [
+          "food",
+          "eat",
+          "diet",
+          "vegan",
+          "vegetarian",
+          "meal"
+        ],
+        "reply": "Plant-rich meals, seasonal produce and less food waste are the biggest food wins. Even one plant-based day a week adds up."
+      },
+      {
+        "keywords": [
+          "shop",
+          "shopping",
+          "buy",
+          "clothes",
+          "second-hand",
+          "secondhand"
+        ],
+        "reply": "Buy less, choose second-hand when you can, and pick durable items. Bring your own bags."
+      },
+      {
+        "keywords": [
+          "streak",
+          "xp",
+          "points",
+          "gems",
+          "seeds",
+          "leaderboard"
+        ],
+        "reply": "Complete an activity each day to build your streak and earn XP. XP decides your rank on the Leaderboard."
+      },
+      {
+        "keywords": [
+          "hi",
+          "hello",
+          "hey",
+          "help"
+        ],
+        "reply": "Happy to help. Ask me about CO2e, transport, food, shopping, or how streaks and XP work."
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "a1",
+      "type": "STORIES",
+      "title": "Stories",
+      "xpReward": 20,
+      "isNew": true
+    },
+    {
+      "id": "a2",
+      "type": "QUIZ",
+      "title": "Quiz",
+      "xpReward": 10,
+      "isNew": true
+    },
+    {
+      "id": "a3",
+      "type": "MOBILITY",
+      "title": "Mobility"
+    },
+    {
+      "id": "a4",
+      "type": "WELLNESS",
+      "title": "Wellness",
+      "xpReward": 15,
+      "needsActivation": true
+    },
+    {
+      "id": "a5",
+      "type": "ROUTINE",
+      "title": "Routine",
+      "xpReward": 5,
+      "isNew": true
+    },
+    {
+      "id": "a6",
+      "type": "INVITE",
+      "title": "Invite",
+      "xpReward": 200
+    }
+  ]
+}
